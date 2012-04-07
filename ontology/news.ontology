@@ -1,0 +1,115 @@
+<ontology>
+	<ontologyType value="news"/>
+	<HBTableName value="news"/>
+	
+	<attribute>
+		<typeName value="url"/>
+		<HBColumnName value="url"/>
+		<HBDataType value="string"/>
+		<canNull value="false"/>
+		<wrapper>
+			<urlPattern value=""/>
+			<contentPattern value=""/>
+		</wrapper>
+	</attribute>
+	
+	<attribute>
+		<typeName value="timeStamp"/>
+		<HBColumnName value="timeStamp"/>
+		<HBDataType value="string"/>
+		<canNull value="false"/>
+		<wrapper>
+			<urlPattern value=""/>
+			<contentPattern value=""/>
+		</wrapper>
+	</attribute>
+	
+	<attribute>
+		<typeName value="source"/>
+		<HBColumnName value="info:source"/>
+		<HBDataType value="string"/>
+		<canNull value="true"/>
+		<wrapper>
+			<urlPattern value=""/>
+			<contentPattern value=""/>
+		</wrapper>
+	</attribute>
+	
+	<attribute>
+		<typeName value="category"/>
+		<HBColumnName value="info:cate"/>
+		<HBDataType value="string"/>
+		<canNull value="true"/>
+		<wrapper>
+			<urlPattern value="<![CDATA[]]>"/>
+			<contentPattern value=""/>
+		</wrapper>
+	</attribute>
+	
+	<attribute>
+		<typeName value="time"/>
+		<HBColumnName value="info:time"/>
+		<HBDataType value="string"/>
+		<canNull value="true"/>
+		<wrapper>
+			<urlPattern value=""/>
+			<contentPattern value=""/>
+		</wrapper>
+	</attribute>
+	
+	<attribute>
+		<typeName value="author"/>
+		<HBColumnName value="info:author"/>
+		<HBDataType value="string"/>
+		<canNull value="true"/>
+		<wrapper>
+			<urlPattern value=""/>
+			<contentPattern value=""/>
+		</wrapper>
+	</attribute>
+	
+	<attribute>
+		<typeName value="domain"/>
+		<HBColumnName value="info:domain"/>
+		<HBDataType value="string"/>
+		<canNull value="true"/>
+		<wrapper>
+			<urlPattern value=""/>
+			<contentPattern value=""/>
+		</wrapper>
+	</attribute>
+	
+	<attribute>
+		<typeName value="title"/>
+		<HBColumnName value="content:title"/>
+		<HBDataType value="string"/>
+		<canNull value="false"/>
+		<wrapper>
+			<urlPattern value=""/>
+			<contentPattern value=""/>
+		</wrapper>
+	</attribute>
+	
+	<attribute>
+		<typeName value="body"/>
+		<HBColumnName value="content:body"/>
+		<HBDataType value="string"/>
+		<canNull value="false"/>
+		<wrapper>
+			<urlPattern value=""/>
+			<contentPattern value=""/>
+		</wrapper>
+	</attribute>
+	
+	<attribute>
+		<typeName value="keyword"/>
+		<HBColumnName value="content:keyword"/>
+		<HBDataType value="string"/>
+		<canNull value="true"/>
+		<wrapper>
+			<urlPattern value=""/>
+			<contentPattern value=""/>
+		</wrapper>
+	</attribute>
+	
+</ontology>
