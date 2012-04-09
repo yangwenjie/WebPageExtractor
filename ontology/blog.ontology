@@ -24,8 +24,6 @@
 		</wrapper>
 	</attribute>
 	
-	
-	
 	<attribute>
 		<typeName value="category"/>
 		<HBColumnName value="info:cate"/>
@@ -77,8 +75,40 @@
 		<HBDataType value="string"/>
 		<canNull value="false"/>
 		<wrapper>
-			<urlPattern value=""/>
-			<contentPattern value=""/>
+			<urlPattern><![CDATA[http://ent\.163\.com/blog.*]]></urlPattern>
+                        <contentPattern><![CDATA[<span class="tcnt">.*?</span>]]></contentPattern>
+		</wrapper>
+		<wrapper>
+			<urlPattern><![CDATA[.*blog\.163\.com/blog/.*]]></urlPattern>
+			<contentPattern><![CDATA[<span class="tcnt">.*?</span>]]></contentPattern>
+		</wrapper>
+		<wrapper>
+			<urlPattern><![CDATA[http://blog\.qq\.com/ent/.*]]></urlPattern>
+                        <contentPattern><![CDATA[<h2 id="veryTitle">.*?</h2>]]></contentPattern>
+		</wrapper>
+		<wrapper>
+			<urlPattern><![CDATA[.*blog\.qq\.com/qzone/.*]]></urlPattern>
+			<contentPattern><![CDATA[<h2 id="veryTitle">.*?</h2>]]></contentPattern>
+		</wrapper>
+		<wrapper>
+			<urlPattern><![CDATA[http://blog\.sina\.com\.cn/lm/ent.*]]></urlPattern>
+			<contentPattern><![CDATA[<h2.*?>.*?</h2>]]></contentPattern>
+		</wrapper>
+		<wrapper>
+			<urlPattern><![CDATA[blog\.ifeng\.com/article.*]]></urlPattern>
+			<contentPattern><![CDATA[<h3.*?>.*?</h3>]]></contentPattern>
+		</wrapper>
+		<wrapper>
+			<urlPattern><![CDATA[http://blog\.sohu\.com/yule.*]]></urlPattern>
+			<contentPattern><![CDATA[<h1.*?>.*?</h1>]]></contentPattern>
+		</wrapper>
+		<wrapper>
+			<urlPattern><![CDATA[.*\.i\.sohu\.com/blog.*]]></urlPattern>
+			<contentPattern><![CDATA[<h1.*?>.*?</h1>]]></contentPattern>
+		</wrapper>
+		<wrapper>
+			<urlPattern><![CDATA[.*\.blog\.sohu\.com/.*]]></urlPattern>
+			<contentPattern><![CDATA[<h3.*?>.*?</h3>]]></contentPattern>
 		</wrapper>
 	</attribute>
 	
@@ -88,8 +118,40 @@
 		<HBDataType value="string"/>
 		<canNull value="false"/>
 		<wrapper>
-			<urlPattern value=""/>
-			<contentPattern value=""/>
+			<urlPattern><![CDATA[http://ent\.163\.com/blog.*]]></urlPattern>
+                        <contentPattern><![CDATA[<div class="nbw-blog-start">.*?<div class="nbw-blog-end">]]></contentPattern>
+		</wrapper>
+		<wrapper>
+			<urlPattern><![CDATA[.*blog\.163\.com/blog/.*]]></urlPattern>
+                        <contentPattern><![CDATA[<div class="nbw-blog-start">.*?<div class="nbw-blog-end">]]></contentPattern>
+		</wrapper>
+		<wrapper>
+			<urlPattern><![CDATA[http://blog\.qq\.com/ent/.*]]></urlPattern>
+                        <contentPattern><![CDATA[<div id="blogDetailDiv".*>.*<div id="paperBottom" class="clear">]]></contentPattern>
+		</wrapper>
+		<wrapper>
+			<urlPattern><![CDATA[.*blog\.qq\.com/qzone/.*]]></urlPattern>
+                        <contentPattern><![CDATA[<div id="blogDetailDiv".*>.*<div id="paperBottom" class="clear">]]></contentPattern>
+		</wrapper>
+		<wrapper>
+			<urlPattern><![CDATA[http://blog\.sina\.com\.cn/lm/ent.*]]></urlPattern>
+			<contentPattern><![CDATA[<div class="articalContent ">.*?</div>]]></contentPattern>
+		</wrapper>
+		<wrapper>
+			<urlPattern><![CDATA[blog\.ifeng\.com/article.*]]></urlPattern>
+			<contentPattern><![CDATA[<div id="blog_article_content".*?>.*?</div>]]></contentPattern>
+		</wrapper>
+		<wrapper>
+			<urlPattern><![CDATA[http://blog\.sohu\.com/yule.*]]></urlPattern>
+			<contentPattern><![CDATA[<div id="blogarticlefont".*?>.*?</div>]]></contentPattern>
+		</wrapper>
+		<wrapper>
+			<urlPattern><![CDATA[.*\.i\.sohu\.com/blog.*]]></urlPattern>
+                        <contentPattern><![CDATA[<div[^>.]*?id="blogarticlefont">.*?</div>]]></contentPattern>
+		</wrapper>
+		<wrapper>
+			<urlPattern><![CDATA[.*\.blog\.sohu\.com/.*]]></urlPattern>
+			<contentPattern><![CDATA[<div id="main-content">.*?</div>]]></contentPattern>
 		</wrapper>
 	</attribute>
 	
@@ -146,7 +208,5 @@
 			<urlPattern value=""/>
 			<contentPattern value=""/>
 		</wrapper>
-	</attribute>
-	
-	
+	</attribute>	
 </ontology>

@@ -39,9 +39,10 @@ public class Ontology {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+		this.initAll();
 	}
 	
-	public void initAll()
+	private void initAll()
 	{
 		this.initOntologyType();
 		this.initHBTableName();

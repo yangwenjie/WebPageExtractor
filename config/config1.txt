@@ -1,2 +1,5 @@
 matchStringDepth=3
+rawDataFile=rawData/crawled_results.00000.filepart
 filterFile=filter/pageTypeFilter.xml
+blogOntologyFile=ontology/blog.ontology
+newsOntologyFile=ontology/news.ontology
