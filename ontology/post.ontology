@@ -8,8 +8,8 @@
 		<HBDataType value="string"/>
 		<canNull value="false"/>
 		<wrapper>
-			<urlPattern value=""/>
-			<contentPattern value=""/>
+			<urlPattern><![CDATA[]]/><urlPattern>
+			<contentPattern/><![CDATA[]]/></contentPattern>
 		</wrapper>
 	</attribute>
 	
@@ -19,30 +19,8 @@
 		<HBDataType value="string"/>
 		<canNull value="false"/>
 		<wrapper>
-			<urlPattern value=""/>
-			<contentPattern value=""/>
-		</wrapper>
-	</attribute>
-	
-	<attribute>
-		<typeName value="source"/>
-		<HBColumnName value="info:source"/>
-		<HBDataType value="string"/>
-		<canNull value="true"/>
-		<wrapper>
-			<urlPattern value=""/>
-			<contentPattern value=""/>
-		</wrapper>
-	</attribute>
-	
-	<attribute>
-		<typeName value="category"/>
-		<HBColumnName value="info:cate"/>
-		<HBDataType value="string"/>
-		<canNull value="true"/>
-		<wrapper>
-			<urlPattern value="<![CDATA[]]>"/>
-			<contentPattern value=""/>
+			<urlPattern><![CDATA[]]/><urlPattern>
+			<contentPattern/><![CDATA[]]/></contentPattern>
 		</wrapper>
 	</attribute>
 	
@@ -72,16 +50,6 @@
 		</wrapper>
 	</attribute>
 	
-	<attribute>
-		<typeName value="domain"/>
-		<HBColumnName value="info:domain"/>
-		<HBDataType value="string"/>
-		<canNull value="true"/>
-		<wrapper>
-			<urlPattern value=""/>
-			<contentPattern value=""/>
-		</wrapper>
-	</attribute>
 	
 	<attribute>
 		<typeName value="title"/>
@@ -115,9 +83,55 @@
 		<HBDataType value="string"/>
 		<canNull value="true"/>
 		<wrapper>
-			<urlPattern value=""/>
-			<contentPattern value=""/>
+			<urlPattern><![CDATA[]]/><urlPattern>
+			<contentPattern/><![CDATA[]]/></contentPattern>
 		</wrapper>
 	</attribute>
+	
+	<attribute>
+		<typeName value="nRead"/>
+		<HBColumnName value="Stat:nRead"/>
+		<HBDataType value="string"/>
+		<canNull value="true"/>
+		<wrapper>
+			<urlPattern><![CDATA[]]/><urlPattern>
+			<contentPattern/><![CDATA[]]/></contentPattern>
+		</wrapper>
+	</attribute>
+	
+	<attribute>
+		<typeName value="nReply"/>
+		<HBColumnName value="Stat:nReply"/>
+		<HBDataType value="string"/>
+		<canNull value="true"/>
+		<wrapper>
+			<urlPattern><![CDATA[]]/><urlPattern>
+			<contentPattern/><![CDATA[]]/></contentPattern>
+		</wrapper>
+	</attribute>
+	
+	<attribute>
+		<typeName value="ID"/>
+		<HBColumnName value="ID"/>
+		<HBDataType value="string"/>
+		<canNull value="true"/>
+		<wrapper>
+			<urlPattern><![CDATA[(?i)http://mirror.*\\.club\\.sohu\\.com/.*]]/><urlPattern>
+			<contentPattern/><![CDATA[var ancestorid_(.*?)='.*?';]]/></contentPattern>
+		</wrapper>
+	</attribute>
+	
+	<attribute>
+		<typeName value="parentID"/>
+		<HBColumnName value="parentID"/>
+		<HBDataType value="string"/>
+		<canNull value="true"/>
+		<wrapper>
+			<urlPattern><![CDATA[(?i)http://mirror.*\\.club\\.sohu\\.com/.*]]/><urlPattern>
+			<contentPattern/><![CDATA[var ancestorid_.*?='(.*?)';]]/></contentPattern>
+		</wrapper>
+	</attribute>
+	
+	
 	
 </ontology>

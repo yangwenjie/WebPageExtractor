@@ -8,8 +8,8 @@
 		<HBDataType value="string"/>
 		<canNull value="false"/>
 		<wrapper>
-			<urlPattern value=""/>
-			<contentPattern value=""/>
+			<urlPattern><![CDATA[]]/><urlPattern>
+			<contentPattern/><![CDATA[]]/></contentPattern>
 		</wrapper>
 	</attribute>
 	
@@ -19,8 +19,8 @@
 		<HBDataType value="string"/>
 		<canNull value="false"/>
 		<wrapper>
-			<urlPattern value=""/>
-			<contentPattern value=""/>
+			<urlPattern><![CDATA[]]/><urlPattern>
+			<contentPattern/><![CDATA[]]/></contentPattern>
 		</wrapper>
 	</attribute>
 	
@@ -30,8 +30,8 @@
 		<HBDataType value="string"/>
 		<canNull value="true"/>
 		<wrapper>
-			<urlPattern value=""/>
-			<contentPattern value=""/>
+			<urlPattern><![CDATA[]]/><urlPattern>
+			<contentPattern/><![CDATA[]]/></contentPattern>
 		</wrapper>
 	</attribute>
 	
@@ -41,8 +41,8 @@
 		<HBDataType value="string"/>
 		<canNull value="true"/>
 		<wrapper>
-			<urlPattern value=""/>
-			<contentPattern value=""/>
+			<urlPattern><![CDATA[http://blog\.sina\.com\.cn/s/.*]]></urlPattern>
+			<contentPattern><![CDATA[[\d]{4}-[\d]{2}-[\d]{2}[ ]+\d\d:\d\d:\d\d]]></contentPattern>
 		</wrapper>
 	</attribute>
 	
@@ -52,8 +52,8 @@
 		<HBDataType value="string"/>
 		<canNull value="true"/>
 		<wrapper>
-			<urlPattern value=""/>
-			<contentPattern value=""/>
+			<urlPattern><![CDATA[http://blog\.sina\.com\.cn/s/.*]]></urlPattern>
+			<contentPattern><![CDATA[<strong id="ownernick">.*?</strong>]]></contentPattern>
 		</wrapper>
 	</attribute>
 	
@@ -63,8 +63,8 @@
 		<HBDataType value="string"/>
 		<canNull value="true"/>
 		<wrapper>
-			<urlPattern value=""/>
-			<contentPattern value=""/>
+			<urlPattern><![CDATA[http://blog\.sina\.com\.cn/s/.*]]></urlPattern>
+			<contentPattern><![CDATA[<div id="bloglink" class="bloglink">.*?</a>]]></contentPattern>
 		</wrapper>
 	</attribute>
 	
@@ -91,7 +91,7 @@
 			<contentPattern><![CDATA[<h2 id="veryTitle">.*?</h2>]]></contentPattern>
 		</wrapper>
 		<wrapper>
-			<urlPattern><![CDATA[http://blog\.sina\.com\.cn/lm/ent.*]]></urlPattern>
+			<urlPattern><![CDATA[http://blog\.sina\.com\.cn/s/.*]]></urlPattern>
 			<contentPattern><![CDATA[<h2.*?>.*?</h2>]]></contentPattern>
 		</wrapper>
 		<wrapper>
@@ -134,8 +134,8 @@
                         <contentPattern><![CDATA[<div id="blogDetailDiv".*>.*<div id="paperBottom" class="clear">]]></contentPattern>
 		</wrapper>
 		<wrapper>
-			<urlPattern><![CDATA[http://blog\.sina\.com\.cn/lm/ent.*]]></urlPattern>
-			<contentPattern><![CDATA[<div class="articalContent ">.*?</div>]]></contentPattern>
+			<urlPattern><![CDATA[http://blog\.sina\.com\.cn/s/.*]]></urlPattern>
+			<contentPattern><![CDATA[<div[^>.]*class="articalContent[ ]*">.*?</div>]]></contentPattern>
 		</wrapper>
 		<wrapper>
 			<urlPattern><![CDATA[blog\.ifeng\.com/article.*]]></urlPattern>
@@ -161,8 +161,8 @@
 		<HBDataType value="string"/>
 		<canNull value="true"/>
 		<wrapper>
-			<urlPattern value=""/>
-			<contentPattern value=""/>
+			<urlPattern><![CDATA[http://blog\.sina\.com\.cn/s/.*]]></urlPattern>
+			<contentPattern><![CDATA[<h3>.*?</h3>]]></contentPattern>
 		</wrapper>
 	</attribute>
 	
@@ -172,8 +172,8 @@
 		<HBDataType value="string"/>
 		<canNull value="true"/>
 		<wrapper>
-			<urlPattern value=""/>
-			<contentPattern value=""/>
+			<urlPattern><![CDATA[http://blog\.sina\.com\.cn/s/.*]]></urlPattern>
+                        <contentPattern></contentPattern>
 		</wrapper>
 	</attribute>
 	
@@ -183,8 +183,8 @@
 		<HBDataType value="string"/>
 		<canNull value="true"/>
 		<wrapper>
-			<urlPattern value=""/>
-			<contentPattern value=""/>
+			<urlPattern><![CDATA[http://blog\.sina\.com\.cn/s/.*]]></urlPattern>
+                        <contentPattern></contentPattern>
 		</wrapper>
 	</attribute>
 	
@@ -194,8 +194,8 @@
 		<HBDataType value="string"/>
 		<canNull value="true"/>
 		<wrapper>
-			<urlPattern value=""/>
-			<contentPattern value=""/>
+			<urlPattern><![CDATA[http://blog\.sina\.com\.cn/s/.*]]></urlPattern>
+                        <contentPattern></contentPattern>
 		</wrapper>
 	</attribute>
 	
@@ -205,8 +205,8 @@
 		<HBDataType value="string"/>
 		<canNull value="true"/>
 		<wrapper>
-			<urlPattern value=""/>
-			<contentPattern value=""/>
+			<urlPattern><![CDATA[http://blog\.sina\.com\.cn/s/.*]]></urlPattern>
+                        <contentPattern></contentPattern>
 		</wrapper>
 	</attribute>	
 </ontology>
