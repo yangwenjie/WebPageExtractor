@@ -12,6 +12,20 @@ public class Field {
 	private String content=null;
 	private String typeName=null;
 	
+	/**
+	 * @return the typeName
+	 */
+	public String getTypeName() {
+		return typeName;
+	}
+
+	/**
+	 * @param typeName the typeName to set
+	 */
+	public void setTypeName(String typeName) {
+		this.typeName = typeName;
+	}
+
 	public Field(Attribute attr)
 	{
 		this.attr=attr;

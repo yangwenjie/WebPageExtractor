@@ -1,9 +1,9 @@
 <filter>
 	<judge>
-		<pattern><![CDATA[shS<>$&ixing]]></pattern>
-		<pattern><![CDATA[dingna]]></pattern>
-		<pattern><![CDATA[xingga]]></pattern>
-		<pattern><![CDATA[heai]]></pattern>
+		<pattern><![CDATA[]]></pattern>
+		<pattern><![CDATA[]]></pattern>
+		<pattern><![CDATA[]]></pattern>
+		<pattern><![CDATA[]]></pattern>
 		<pageType>news</pageType>
 	</judge>
 </filter>

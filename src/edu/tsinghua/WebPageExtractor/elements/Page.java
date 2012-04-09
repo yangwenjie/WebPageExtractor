@@ -3,6 +3,8 @@
  */
 package edu.tsinghua.WebPageExtractor.elements;
 
+import edu.tsinghua.WebPageExtractor.filter.PageType;
+
 /**
  * @author shixing
  *
@@ -10,7 +12,32 @@ package edu.tsinghua.WebPageExtractor.elements;
 public abstract class Page {
 	private String url=null;
 	private String content=null;
-	
+	private PageType pageType=null;
+	private HTree tree=null;
+	/**
+	 * @return the tree
+	 */
+	public HTree getTree() {
+		return tree;
+	}
+	/**
+	 * @param tree the tree to set
+	 */
+	public void setTree(HTree tree) {
+		this.tree = tree;
+	}
+	/**
+	 * @return the pageType
+	 */
+	public PageType getPageType() {
+		return pageType;
+	}
+	/**
+	 * @param pageType the pageType to set
+	 */
+	public void setPageType(PageType pageType) {
+		this.pageType = pageType;
+	}
 	public abstract void initAll();
 	/**
 	 * @return the url
