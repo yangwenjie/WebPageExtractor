@@ -29,6 +29,6 @@ public class BlogNewsExtractor implements Extractor {
 		WrapperProcessor processor = new WrapperProcessor(page.getPageType(),
 				attrTypeList,ontology);
 		PageOutput po=processor.processOnePage(page);
-		return null;
+		return po;
 	}
 }

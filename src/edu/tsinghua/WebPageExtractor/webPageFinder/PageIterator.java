@@ -58,6 +58,7 @@ public class PageIterator {
 					PageResult pgResult = pgResultBuilder.build();
 					PageFactory pf=new PageFactory();
 					this.curPage=pf.getPage(pgResult.getUrl(), pgResult.getHtml());
+					this.curPage.setCrawler(pgResult.getCrawlerName());
 					return true;
 				} else {
 					tempResult.append(line + "\n");

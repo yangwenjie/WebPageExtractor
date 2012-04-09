@@ -14,6 +14,20 @@ public abstract class Page {
 	private String content=null;
 	private PageType pageType=null;
 	private HTree tree=null;
+	private String crawler=null;
+	
+	/**
+	 * @return the crawler
+	 */
+	public String getCrawler() {
+		return crawler;
+	}
+	/**
+	 * @param crawler the crawler to set
+	 */
+	public void setCrawler(String crawler) {
+		this.crawler = crawler;
+	}
 	/**
 	 * @return the tree
 	 */
