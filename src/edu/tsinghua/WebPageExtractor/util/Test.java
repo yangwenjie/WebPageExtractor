@@ -4,6 +4,7 @@
 package edu.tsinghua.WebPageExtractor.util;
 
 import java.io.*;
+import java.util.regex.Pattern;
 
 import org.htmlparser.Node;
 import org.htmlparser.NodeFilter;
@@ -24,12 +25,26 @@ import edu.tsinghua.WebPageExtractor.filter.URLClassifier;
 public class Test {
 	public static void main(String[] args){  
         Test tt = new Test(); 
-        tt.test();
+        tt.test3();
+	}
+	public void test3()
+	{
+		BufferedReader fin;
+		try {
+			fin = new BufferedReader(new InputStreamReader(new FileInputStream("test.txt")));
+			String line=fin.readLine();
+			System.out.println(line);
+			System.out.println("http://blog.sohu.com/yule/".matches(line));
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
 	}
 	public void test()
 	{
 		Config config=Config.getNewInstance();
-		String filename=config.getConfigValue("filterFile");
+		String filename=config.getValue("filterFile");
 		URLClassifier uc=new URLClassifier(filename);
 		System.out.println(uc.toJudgeString());
 	}
@@ -48,7 +63,6 @@ public class Test {
 			for (int i=0;i<node.getChildren().size();i++)
 			{
 				System.out.println(":"+node.getChildren().elementAt(i).toHtml()+":");
-				
 			}
 			//Tag tag=(CompositeTag)node;
 			//System.out.println(tag.getAttribute("class"));

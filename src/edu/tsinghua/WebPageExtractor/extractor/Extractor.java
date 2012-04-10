@@ -14,10 +14,10 @@ import edu.tsinghua.WebPageExtractor.ontology.PageOutput;
 public interface Extractor {
 	/**
 	 * 
-	 * 功能：从一个页面（page）中，根绝ontology去抽取内容
+	 * 功能：从一个页面（page）中，根绝ontology去抽取内容,将结果放在page本身的pageoutput中
 	 * 返回值说明：
 	 * @param page 
-	 * @return PageOutput
+	 * @return 
 	 */
-	public PageOutput extract(Page page,Ontology ontology);
+	public void extract(Page page,Ontology ontology);
 }

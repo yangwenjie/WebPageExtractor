@@ -1,4 +1,4 @@
-<ontology>
+﻿<ontology>
 	<ontologyType value="news"/>
 	<HBTableName value="news"/>
 	
@@ -8,8 +8,8 @@
 		<HBDataType value="string"/>
 		<canNull value="false"/>
 		<wrapper>
-			<urlPattern value=""/>
-			<contentPattern value=""/>
+			<urlPattern><![CDATA[]]></urlPattern>
+			<contentPattern><![CDATA[]]></contentPattern>
 		</wrapper>
 	</attribute>
 	
@@ -19,8 +19,8 @@
 		<HBDataType value="string"/>
 		<canNull value="false"/>
 		<wrapper>
-			<urlPattern value=""/>
-			<contentPattern value=""/>
+			<urlPattern><![CDATA[]]></urlPattern>
+			<contentPattern><![CDATA[]]></contentPattern>
 		</wrapper>
 	</attribute>
 	
@@ -30,8 +30,8 @@
 		<HBDataType value="string"/>
 		<canNull value="true"/>
 		<wrapper>
-			<urlPattern value=""/>
-			<contentPattern value=""/>
+			<urlPattern><![CDATA[]]></urlPattern>
+			<contentPattern><![CDATA[]]></contentPattern>
 		</wrapper>
 	</attribute>
 	
@@ -41,8 +41,8 @@
 		<HBDataType value="string"/>
 		<canNull value="true"/>
 		<wrapper>
-			<urlPattern value="<![CDATA[]]>"/>
-			<contentPattern value=""/>
+			<urlPattern><![CDATA[]]></urlPattern>
+			<contentPattern><![CDATA[]]></contentPattern>
 		</wrapper>
 	</attribute>
 	
@@ -52,10 +52,8 @@
 		<HBDataType value="string"/>
 		<canNull value="true"/>
 		<wrapper>
-			<urlPattern><!CDATA[(?i)http://mirror.*\\.club\\.sohu\\.com/.*]]>
-			</urlPattern>
-			<contentPattern><![CDATA[var inputdate_.*?='(.*?)';]]/>
-			</contentPattern>
+			<urlPattern><![CDATA[]]></urlPattern>
+			<contentPattern><![CDATA[]]></contentPattern>
 		</wrapper>
 	</attribute>
 	
@@ -65,10 +63,8 @@
 		<HBDataType value="string"/>
 		<canNull value="true"/>
 		<wrapper>
-			<urlPattern><![CDATA[(?i)http://mirror.*\\.club\\.sohu\\.com/.*]]>
-			</urlPattern>
-			<contentPattern><![CDATA[var nickname_.*?='(.*?)';]]/>
-			</contentPattern>
+			<urlPattern><![CDATA[]]></urlPattern>
+			<contentPattern><![CDATA[]]></contentPattern>
 		</wrapper>
 	</attribute>
 	
@@ -78,8 +74,8 @@
 		<HBDataType value="string"/>
 		<canNull value="true"/>
 		<wrapper>
-			<urlPattern value=""/>
-			<contentPattern value=""/>
+			<urlPattern><![CDATA[]]></urlPattern>
+			<contentPattern><![CDATA[]]></contentPattern>
 		</wrapper>
 	</attribute>
 	
@@ -89,10 +85,8 @@
 		<HBDataType value="string"/>
 		<canNull value="false"/>
 		<wrapper>
-			<urlPattern><!CDATA[(?i)http://mirror.*\\.club\\.sohu\\.com/.*]]>
-			</urlPattern>
-			<contentPattern><![CDATA[var title_.*?='(.*?)';]]/>
-			</contentPattern>
+			<urlPattern><![CDATA[]]></urlPattern>
+			<contentPattern><![CDATA[]]></contentPattern>
 		</wrapper>
 	</attribute>
 	
@@ -102,10 +96,8 @@
 		<HBDataType value="string"/>
 		<canNull value="false"/>
 		<wrapper>
-			<urlPattern><!CDATA[(?i)http://mirror.*\\.club\\.sohu\\.com/.*]]>
-			</urlPattern>
-			<contentPattern><![CDATA[var body_.*?='(.*?)';]]/>
-			</contentPattern>
+			<urlPattern><![CDATA[]]></urlPattern>
+			<contentPattern><![CDATA[]]></contentPattern>
 		</wrapper>
 	</attribute>
 	
@@ -115,9 +107,8 @@
 		<HBDataType value="string"/>
 		<canNull value="true"/>
 		<wrapper>
-			<urlPattern value=""/>
-			<contentPattern value=""/>
+			<urlPattern><![CDATA[]]></urlPattern>
+			<contentPattern><![CDATA[]]></contentPattern>
 		</wrapper>
 	</attribute>
-	
 </ontology>

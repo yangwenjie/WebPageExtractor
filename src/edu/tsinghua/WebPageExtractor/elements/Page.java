@@ -4,6 +4,7 @@
 package edu.tsinghua.WebPageExtractor.elements;
 
 import edu.tsinghua.WebPageExtractor.filter.PageType;
+import edu.tsinghua.WebPageExtractor.ontology.PageOutput;
 
 /**
  * @author shixing
@@ -15,6 +16,13 @@ public abstract class Page {
 	private PageType pageType=null;
 	private HTree tree=null;
 	private String crawler=null;
+	private PageOutput po=new PageOutput();
+	/**
+	 * @return the po
+	 */
+	public PageOutput getPo() {
+		return po;
+	}
 	
 	/**
 	 * @return the crawler

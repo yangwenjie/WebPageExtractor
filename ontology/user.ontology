@@ -1,0 +1,67 @@
+﻿<ontology>
+	<ontologyType value="user"/>
+	<HBTableName value="user"/>
+	
+	<attribute>
+		<typeName value="url"/>
+		<HBColumnName value="url"/>
+		<HBDataType value="string"/>
+		<canNull value="false"/>
+		<wrapper>
+			<urlPattern><![CDATA[]]></urlPattern>
+			<contentPattern><![CDATA[]]></contentPattern>
+		</wrapper>
+	</attribute>
+	
+	<attribute>
+		<typeName value="name"/>
+		<HBColumnName value="info:name"/>
+		<HBDataType value="string"/>
+		<canNull value="true"/>
+		<wrapper>
+			<urlPattern><![CDATA[]]>
+			</urlPattern>
+			<contentPattern><![CDATA[]]>
+			</contentPattern>
+		</wrapper>
+	</attribute>
+		
+	<attribute>
+		<typeName value="age"/>
+		<HBColumnName value="info:age"/>
+		<HBDataType value="string"/>
+		<canNull value="true"/>
+		<wrapper>
+			<urlPattern><![CDATA[]]>
+			</urlPattern>
+			<contentPattern><![CDATA[]]>
+			</contentPattern>
+		</wrapper>
+	</attribute>
+	
+	<attribute>
+		<typeName value="gender"/>
+		<HBColumnName value="info:gender"/>
+		<HBDataType value="string"/>
+		<canNull value="true"/>
+		<wrapper>
+			<urlPattern><![CDATA[]]>
+			</urlPattern>
+			<contentPattern><![CDATA[]]>
+			</contentPattern>
+		</wrapper>
+	</attribute>
+	
+	<attribute>
+		<typeName value="location"/>
+		<HBColumnName value="info:location"/>
+		<HBDataType value="string"/>
+		<canNull value="true"/>
+		<wrapper>
+			<urlPattern><![CDATA[]]>
+			</urlPattern>
+			<contentPattern><![CDATA[]]>
+			</contentPattern>
+		</wrapper>
+	</attribute>
+</ontology>

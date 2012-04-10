@@ -1,26 +1,23 @@
-<filter>
+﻿<filter>
 	<judge>
-		<pattern><![CDATA[(?i)http://mirror.*\\.club\\.sohu\\.com/.*]]></pattern>
-		<pattern><![CDATA[(?i)http://club\\.yule\\.sohu\\.com/r-bagua.*]]></pattern>
-		<pattern><![CDATA[(?i)http://club\\.yule\\.sohu\\.com/r-zz0220.*]]></pattern>
-		<pattern><![CDATA[(?i)http://club\\.yule\\.sohu\\.com/r-sugirl.*]]></pattern>
-		<pattern><![CDATA[(?i)http://club\\.yule\\.sohu\\.com/r-zz0171.*]]></pattern>
-		<pattern><![CDATA[(?i)http://club\\.yule\\.sohu\\.com/r-tv.*]]></pattern>
+		<pattern><![CDATA[(?i)http://mirror.*\.club\.sohu\.com/.*]]></pattern>
+		<pattern><![CDATA[(?i)http://club\.yule\.sohu\.com/r-bagua.*]]></pattern>
+		<pattern><![CDATA[(?i)http://club\.yule\.sohu\.com/r-zz0220.*]]></pattern>
+		<pattern><![CDATA[(?i)http://club\.yule\.sohu\.com/r-sugirl.*]]></pattern>
+		<pattern><![CDATA[(?i)http://club\.yule\.sohu\.com/r-zz0171.*]]></pattern>
+		<pattern><![CDATA[(?i)http://club\.yule\.sohu\.com/r-tv.*]]></pattern>
 		<pageType>post</pageType>
 	</judge>
 	<judge>
-		<pattern><![CDATA[http://ent\.163\.com/blog/.*]]></pattern>
-		<pattern><![CDATA[.*blog\.163\.com/.*]]></pattern>
-		<pattern><![CDATA[http://blog\.qq\.com/ent/.*]]></pattern>
+		<pattern><![CDATA[http://ent\.163\.com/blog/.+]]></pattern>
+		<pattern><![CDATA[.*blog\.163\.com/.+]]></pattern>
+		<pattern><![CDATA[http://blog\.qq\.com/ent/.+]]></pattern>
 		<pattern><![CDATA[.*blog\.qq\.com/qzone]]></pattern>
-                <pattern><![CDATA[http://blog\.sina\.com\.cn/lm/ent/.*]]></pattern>
-                <pattern><![CDATA[.*blog\.sina\.com\.cn/.*]]></pattern>
-                <pattern><![CDATA[http://blog\.ifeng\.com/article/.*]]></pattern>
-                <pattern><![CDATA[http://blog\.sohu\.com/yule/.*]]></pattern>
-                <pattern><![CDATA[http://blog\.sohu\.com/yule/.*]]></pattern>
-                <pattern><![CDATA[.*i\.sohu\.com/blog/.*]]></pattern>
-                <pattern><![CDATA[.*/blog\.sohu\.com/.*]]></pattern>
+                <pattern><![CDATA[http://blog\.sina\.com\.cn/lm/ent/.+]]></pattern>
+                <pattern><![CDATA[.*blog\.sina\.com\.cn/.+]]></pattern>
+                <pattern><![CDATA[http://blog\.ifeng\.com/article/.+]]></pattern>
+                <pattern><![CDATA[http://blog\.sohu\.com/yule/.+]]></pattern>
+                <pattern><![CDATA[.*i\.sohu\.com/blog/.+]]></pattern>
 		<pageType>blog</pageType>
 	</judge>
-
 </filter>

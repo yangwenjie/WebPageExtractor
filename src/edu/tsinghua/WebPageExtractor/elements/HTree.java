@@ -81,6 +81,7 @@ public class HTree {
 		while(!tempStack.isEmpty())
 		{
 			HNode current=tempStack.poll();
+			if (current==null) continue;
 			for (int i=0;i<current.getChildren().size();i++)
 			{
 				HNode ihnode=current.getChildren().get(i);

@@ -1,0 +1,97 @@
+﻿<ontology>
+	<ontologyType value="twitter"/>
+	<HBTableName value="twitter"/>
+	
+	<attribute>
+		<typeName value="url"/>
+		<HBColumnName value="url"/>
+		<HBDataType value="string"/>
+		<canNull value="false"/>
+		<wrapper>
+			<urlPattern><![CDATA[]]></urlPattern>
+			<contentPattern><![CDATA[]]></contentPattern>
+		</wrapper>
+	</attribute>
+	
+	<attribute>
+		<typeName value="nFollowers"/>
+		<HBColumnName value="Stat:nFollowers"/>
+		<HBDataType value="string"/>
+		<canNull value="true"/>
+		<wrapper>
+			<urlPattern><![CDATA[]]>
+			</urlPattern>
+			<contentPattern><![CDATA[]]>
+			</contentPattern>
+		</wrapper>
+		
+	</attribute>
+		<attribute>
+		<typeName value="nFollowing"/>
+		<HBColumnName value="Stat:nFollowing"/>
+		<HBDataType value="string"/>
+		<canNull value="true"/>
+		<wrapper>
+			<urlPattern><![CDATA[]]>
+			</urlPattern>
+			<contentPattern><![CDATA[]]>
+			</contentPattern>
+		</wrapper>
+		
+	</attribute>
+		<attribute>
+		<typeName value="nTweet"/>
+		<HBColumnName value="Stat:nTweet"/>
+		<HBDataType value="string"/>
+		<canNull value="true"/>
+		<wrapper>
+			<urlPattern><![CDATA[]]>
+			</urlPattern>
+			<contentPattern><![CDATA[]]>
+			</contentPattern>
+		</wrapper>
+		
+	</attribute>
+		<attribute>
+		<typeName value="description"/>
+		<HBColumnName value="info:desc"/>
+		<HBDataType value="string"/>
+		<canNull value="true"/>
+		<wrapper>
+			<urlPattern><![CDATA[]]>
+			</urlPattern>
+			<contentPattern><![CDATA[]]>
+			</contentPattern>
+		</wrapper>
+	</attribute>
+	
+	</attribute>
+		<attribute>
+		<typeName value="location"/>
+		<HBColumnName value="info:location"/>
+		<HBDataType value="string"/>
+		<canNull value="true"/>
+		<wrapper>
+			<urlPattern><![CDATA[]]>
+			</urlPattern>
+			<contentPattern><![CDATA[]]>
+			</contentPattern>
+		</wrapper>
+	</attribute>
+	
+	</attribute>
+		<attribute>
+		<typeName value="label"/>
+		<HBColumnName value="info:label"/>
+		<HBDataType value="string"/>
+		<canNull value="true"/>
+		<wrapper>
+			<urlPattern><![CDATA[]]>
+			</urlPattern>
+			<contentPattern><![CDATA[]]>
+			</contentPattern>
+		</wrapper>
+	</attribute>
+	
+	
+</ontology>

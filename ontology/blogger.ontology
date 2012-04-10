@@ -1,0 +1,82 @@
+﻿<ontology>
+	<ontologyType value="blogger"/>
+	<HBTableName value="blogger"/>
+	
+	<attribute>
+		<typeName value="url"/>
+		<HBColumnName value="url"/>
+		<HBDataType value="string"/>
+		<canNull value="false"/>
+		<wrapper>
+			<urlPattern><![CDATA[]]></urlPattern>
+			<contentPattern><![CDATA[]]></contentPattern>
+		</wrapper>
+	</attribute>
+	
+	<attribute>
+		<typeName value="level"/>
+		<HBColumnName value="Stat:level"/>
+		<HBDataType value="string"/>
+		<canNull value="true"/>
+		<wrapper>
+			<urlPattern><![CDATA[]]>
+			</urlPattern>
+			<contentPattern><![CDATA[]]>
+			</contentPattern>
+		</wrapper>
+	</attribute>
+	
+	<attribute>
+		<typeName value="credit"/>
+		<HBColumnName value="Stat:credit"/>
+		<HBDataType value="string"/>
+		<canNull value="true"/>
+		<wrapper>
+			<urlPattern><![CDATA[]]>
+			</urlPattern>
+			<contentPattern><![CDATA[]]>
+			</contentPattern>
+		</wrapper>
+	</attribute>
+	
+	<attribute>
+		<typeName value="nRead"/>
+		<HBColumnName value="Stat:nRead"/>
+		<HBDataType value="string"/>
+		<canNull value="true"/>
+		<wrapper>
+			<urlPattern><![CDATA[]]>
+			</urlPattern>
+			<contentPattern><![CDATA[]]>
+			</contentPattern>
+		</wrapper>
+	</attribute>
+	
+	<attribute>
+		<typeName value="name"/>
+		<HBColumnName value="info:name"/>
+		<HBDataType value="string"/>
+		<canNull value="true"/>
+		<wrapper>
+			<urlPattern><![CDATA[]]>
+			</urlPattern>
+			<contentPattern><![CDATA[]]>
+			</contentPattern>
+		</wrapper>
+	</attribute>
+	
+	<attribute>
+		<typeName value="wiki"/>
+		<HBColumnName value="info:wiki"/>
+		<HBDataType value="string"/>
+		<canNull value="true"/>
+		<wrapper>
+			<urlPattern><![CDATA[]]>
+			</urlPattern>
+			<contentPattern><![CDATA[]]>
+			</contentPattern>
+		</wrapper>
+	</attribute>
+	
+	
+</ontology>

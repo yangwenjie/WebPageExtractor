@@ -36,7 +36,7 @@ public class ExtactprocessTest {
 		//getPage
 		PageFactory wpf=new PageFactory();
 		Page p=wpf.getPage("temp/douban.htm");
-		int matchStringDepth=Integer.parseInt(config.getConfigValue("matchStringDepth"));
+		int matchStringDepth=Integer.parseInt(config.getValue("matchStringDepth"));
 		tree=new HTree(matchStringDepth);
 		try {
 			Parser parser=new Parser();

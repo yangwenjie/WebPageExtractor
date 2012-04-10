@@ -34,6 +34,8 @@ public class Config {
 			String line=null;
 			while ((line=fin.readLine())!=null)
 			{
+				if (line.startsWith("//"))
+						continue;
 				String ll[]=line.split("=");
 				if (ll.length==2)
 					kvs.put(ll[0], ll[1]);
@@ -43,7 +45,7 @@ public class Config {
 			e.printStackTrace();
 		}
 	}
-	public String getConfigValue(String key)
+	public String getValue(String key)
 	{
 		String value=null;
 		value=kvs.get(key);

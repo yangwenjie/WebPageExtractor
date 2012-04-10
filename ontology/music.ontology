@@ -1,0 +1,165 @@
+﻿<ontology>
+	<ontologyType value="music"/>
+	<HBTableName value="music"/>
+	
+	<attribute>
+		<typeName value="url"/>
+		<HBColumnName value="url"/>
+		<HBDataType value="string"/>
+		<canNull value="false"/>
+		<wrapper>
+			<urlPattern><![CDATA[]]></urlPattern>
+			<contentPattern><![CDATA[]]></contentPattern>
+		</wrapper>
+	</attribute>
+	
+	<attribute>
+		<typeName value="singer"/>
+		<HBColumnName value="info:singer"/>
+		<HBDataType value="string"/>
+		<canNull value="true"/>
+		<wrapper>
+			<urlPattern><![CDATA[]]>
+			</urlPattern>
+			<contentPattern><![CDATA[]]>
+			</contentPattern>
+		</wrapper>
+	</attribute>
+	
+	<attribute>
+		<typeName value="alias"/>
+		<HBColumnName value="info:alias"/>
+		<HBDataType value="string"/>
+		<canNull value="true"/>
+		<wrapper>
+			<urlPattern><![CDATA[]]>
+			</urlPattern>
+			<contentPattern><![CDATA[]]>
+			</contentPattern>
+		</wrapper>
+	</attribute>
+	
+	<attribute>
+		<typeName value="style"/>
+		<HBColumnName value="info:style"/>
+		<HBDataType value="string"/>
+		<canNull value="true"/>
+		<wrapper>
+			<urlPattern><![CDATA[]]>
+			</urlPattern>
+			<contentPattern><![CDATA[]]>
+			</contentPattern>
+		</wrapper>
+	</attribute>
+	
+	<attribute>
+		<typeName value="type"/>
+		<HBColumnName value="info:type"/>
+		<HBDataType value="string"/>
+		<canNull value="true"/>
+		<wrapper>
+			<urlPattern><![CDATA[]]>
+			</urlPattern>
+			<contentPattern><![CDATA[]]>
+			</contentPattern>
+		</wrapper>
+	</attribute>
+	
+	<attribute>
+		<typeName value="time"/>
+		<HBColumnName value="info:time"/>
+		<HBDataType value="string"/>
+		<canNull value="true"/>
+		<wrapper>
+			<urlPattern><![CDATA[]]>
+			</urlPattern>
+			<contentPattern><![CDATA[]]>
+			</contentPattern>
+		</wrapper>
+	</attribute>
+	
+	<attribute>
+		<typeName value="name"/>
+		<HBColumnName value="info:name"/>
+		<HBDataType value="string"/>
+		<canNull value="true"/>
+		<wrapper>
+			<urlPattern><![CDATA[]]>
+			</urlPattern>
+			<contentPattern><![CDATA[]]>
+			</contentPattern>
+		</wrapper>
+	</attribute>
+	
+	<attribute>
+		<typeName value="ratingStar"/>
+		<HBColumnName value="Stat:ratingStar"/>
+		<HBDataType value="string"/>
+		<canNull value="true"/>
+		<wrapper>
+			<urlPattern><![CDATA[]]>
+			</urlPattern>
+			<contentPattern><![CDATA[]]>
+			</contentPattern>
+		</wrapper>
+	</attribute>
+	
+	<attribute>
+		<typeName value="nExpect"/>
+		<HBColumnName value="Stat:nExpect"/>
+		<HBDataType value="string"/>
+		<canNull value="true"/>
+		<wrapper>
+			<urlPattern><![CDATA[]]>
+			</urlPattern>
+			<contentPattern><![CDATA[]]>
+			</contentPattern>
+		</wrapper>
+	</attribute>
+	
+	<attribute>
+		<typeName value="nPos"/>
+		<HBColumnName value="Stat:nPos"/>
+		<HBDataType value="string"/>
+		<canNull value="true"/>
+		<wrapper>
+			<urlPattern><![CDATA[]]>
+			</urlPattern>
+			<contentPattern><![CDATA[]]>
+			</contentPattern>
+		</wrapper>
+	</attribute>
+	
+	<attribute>
+		<typeName value="nComment"/>
+		<HBColumnName value="Stat:nComment"/>
+		<HBDataType value="string"/>
+		<canNull value="true"/>
+		<wrapper>
+			<urlPattern><![CDATA[]]>
+			</urlPattern>
+			<contentPattern><![CDATA[]]>
+			</contentPattern>
+		</wrapper>
+	</attribute>
+	
+	<attribute>
+		<typeName value="nPlay"/>
+		<HBColumnName value="Stat:nPlay"/>
+		<HBDataType value="string"/>
+		<canNull value="true"/>
+		<wrapper>
+			<urlPattern><![CDATA[]]>
+			</urlPattern>
+			<contentPattern><![CDATA[]]>
+			</contentPattern>
+		</wrapper>
+	</attribute>
+	
+	
+	
+	
+	
+	
+	
+</ontology>

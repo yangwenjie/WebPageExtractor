@@ -1,4 +1,4 @@
-<ontology>
+﻿<ontology>
 	<ontologyType value="blog"/>
 	<HBTableName value="blog"/>
 	
@@ -8,8 +8,8 @@
 		<HBDataType value="string"/>
 		<canNull value="false"/>
 		<wrapper>
-			<urlPattern><![CDATA[]]/><urlPattern>
-			<contentPattern/><![CDATA[]]/></contentPattern>
+			<urlPattern><![CDATA[]]></urlPattern>
+			<contentPattern><![CDATA[]]></contentPattern>
 		</wrapper>
 	</attribute>
 	
@@ -19,8 +19,8 @@
 		<HBDataType value="string"/>
 		<canNull value="false"/>
 		<wrapper>
-			<urlPattern><![CDATA[]]/><urlPattern>
-			<contentPattern/><![CDATA[]]/></contentPattern>
+			<urlPattern><![CDATA[]]></urlPattern>
+			<contentPattern><![CDATA[]]></contentPattern>
 		</wrapper>
 	</attribute>
 	
@@ -30,8 +30,8 @@
 		<HBDataType value="string"/>
 		<canNull value="true"/>
 		<wrapper>
-			<urlPattern><![CDATA[]]/><urlPattern>
-			<contentPattern/><![CDATA[]]/></contentPattern>
+			<urlPattern><![CDATA[]]></urlPattern>
+			<contentPattern><![CDATA[]]></contentPattern>
 		</wrapper>
 	</attribute>
 	
@@ -167,8 +167,8 @@
 	</attribute>
 	
 	<attribute>
-		<typeName value="nReaderClick"/>
-		<HBColumnName value="stat:nReaderClick"/>
+		<typeName value="nRead"/>
+		<HBColumnName value="stat:nRead"/>
 		<HBDataType value="string"/>
 		<canNull value="true"/>
 		<wrapper>
@@ -189,8 +189,8 @@
 	</attribute>
 	
 	<attribute>
-		<typeName value="nFavorit"/>
-		<HBColumnName value="stat:nFavorit"/>
+		<typeName value="nFavourit"/>
+		<HBColumnName value="stat:nFavourit"/>
 		<HBDataType value="string"/>
 		<canNull value="true"/>
 		<wrapper>

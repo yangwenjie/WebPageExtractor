@@ -15,8 +15,8 @@ public class Wrapper {
 	
 	public void initAll(org.w3c.dom.Node node)
 	{
-		this.urlPattern=XMLUtil.getAttributeInXML(node, "urlPattern", "value");
-		this.contentPattern=XMLUtil.getAttributeInXML(node, "contentPattern", "value");
+		this.urlPattern=XMLUtil.getAttributeInXML(node, "urlPattern", "_content");
+		this.contentPattern=XMLUtil.getAttributeInXML(node, "contentPattern", "_content");
 	}
 	
 	public String toString()

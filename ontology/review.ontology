@@ -1,0 +1,109 @@
+﻿<ontology>
+	<ontologyType value="review"/>
+	<HBTableName value="review"/>
+	
+	<attribute>
+		<typeName value="url"/>
+		<HBColumnName value="url"/>
+		<HBDataType value="string"/>
+		<canNull value="false"/>
+		<wrapper>
+			<urlPattern><![CDATA[]]></urlPattern>
+			<contentPattern><![CDATA[]]></contentPattern>
+		</wrapper>
+	</attribute>
+	
+	<attribute>
+		<typeName value="relevantInfo"/>
+		<HBColumnName value="info:relevantInfo"/>
+		<HBDataType value="string"/>
+		<canNull value="true"/>
+		<wrapper>
+			<urlPattern><![CDATA[]]>
+			</urlPattern>
+			<contentPattern><![CDATA[]]>
+			</contentPattern>
+		</wrapper>
+	</attribute>
+		
+	<attribute>
+		<typeName value="author"/>
+		<HBColumnName value="info:author"/>
+		<HBDataType value="string"/>
+		<canNull value="true"/>
+		<wrapper>
+			<urlPattern><![CDATA[]]>
+			</urlPattern>
+			<contentPattern><![CDATA[]]>
+			</contentPattern>
+		</wrapper>
+	</attribute>
+	
+	<attribute>
+		<typeName value="title"/>
+		<HBColumnName value="info:title"/>
+		<HBDataType value="string"/>
+		<canNull value="true"/>
+		<wrapper>
+			<urlPattern><![CDATA[]]>
+			</urlPattern>
+			<contentPattern><![CDATA[]]>
+			</contentPattern>
+		</wrapper>
+	</attribute>
+	
+	<attribute>
+		<typeName value="location"/>
+		<HBColumnName value="info:location"/>
+		<HBDataType value="string"/>
+		<canNull value="true"/>
+		<wrapper>
+			<urlPattern><![CDATA[]]>
+			</urlPattern>
+			<contentPattern><![CDATA[]]>
+			</contentPattern>
+		</wrapper>
+	</attribute>
+	
+	<attribute>
+		<typeName value="time"/>
+		<HBColumnName value="info:time"/>
+		<HBDataType value="string"/>
+		<canNull value="true"/>
+		<wrapper>
+			<urlPattern><![CDATA[]]>
+			</urlPattern>
+			<contentPattern><![CDATA[]]>
+			</contentPattern>
+		</wrapper>
+	</attribute>
+	
+	<attribute>
+		<typeName value="body"/>
+		<HBColumnName value="info:body"/>
+		<HBDataType value="string"/>
+		<canNull value="true"/>
+		<wrapper>
+			<urlPattern><![CDATA[]]>
+			</urlPattern>
+			<contentPattern><![CDATA[]]>
+			</contentPattern>
+		</wrapper>
+	</attribute>
+	
+	<attribute>
+		<typeName value="ratingStar"/>
+		<HBColumnName value="info:ratingStar"/>
+		<HBDataType value="string"/>
+		<canNull value="true"/>
+		<wrapper>
+			<urlPattern><![CDATA[]]>
+			</urlPattern>
+			<contentPattern><![CDATA[]]>
+			</contentPattern>
+		</wrapper>
+	</attribute>
+	
+	
+	
+</ontology>

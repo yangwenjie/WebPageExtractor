@@ -1,6 +1,6 @@
-<ontology>
-	<ontologyType value="news"/>
-	<HBTableName value="news"/>
+﻿<ontology>
+	<ontologyType value="post"/>
+	<HBTableName value="post"/>
 	
 	<attribute>
 		<typeName value="url"/>
@@ -8,8 +8,8 @@
 		<HBDataType value="string"/>
 		<canNull value="false"/>
 		<wrapper>
-			<urlPattern><![CDATA[]]/><urlPattern>
-			<contentPattern/><![CDATA[]]/></contentPattern>
+			<urlPattern><![CDATA[]]></urlPattern>
+			<contentPattern><![CDATA[]]></contentPattern>
 		</wrapper>
 	</attribute>
 	
@@ -19,8 +19,8 @@
 		<HBDataType value="string"/>
 		<canNull value="false"/>
 		<wrapper>
-			<urlPattern><![CDATA[]]/><urlPattern>
-			<contentPattern/><![CDATA[]]/></contentPattern>
+			<urlPattern><![CDATA[]]></urlPattern>
+			<contentPattern><![CDATA[]]></contentPattern>
 		</wrapper>
 	</attribute>
 	
@@ -30,9 +30,9 @@
 		<HBDataType value="string"/>
 		<canNull value="true"/>
 		<wrapper>
-			<urlPattern><!CDATA[(?i)http://mirror.*\\.club\\.sohu\\.com/.*]]>
+		<urlPattern><![CDATA[(?i)http://mirror.*\.club\.sohu\.com/.*]]>
 			</urlPattern>
-			<contentPattern><![CDATA[var inputdate_.*?='(.*?)';]]/>
+			<contentPattern><![CDATA[var inputdate_.*?='(.*?)';]]>
 			</contentPattern>
 		</wrapper>
 	</attribute>
@@ -43,9 +43,9 @@
 		<HBDataType value="string"/>
 		<canNull value="true"/>
 		<wrapper>
-			<urlPattern><![CDATA[(?i)http://mirror.*\\.club\\.sohu\\.com/.*]]>
+			<urlPattern><![CDATA[(?i)http://mirror.*\.club\.sohu\.com/.*]]>
 			</urlPattern>
-			<contentPattern><![CDATA[var nickname_.*?='(.*?)';]]/>
+			<contentPattern><![CDATA[var nickname_.*?='(.*?)';]]>
 			</contentPattern>
 		</wrapper>
 	</attribute>
@@ -57,9 +57,9 @@
 		<HBDataType value="string"/>
 		<canNull value="false"/>
 		<wrapper>
-			<urlPattern><!CDATA[(?i)http://mirror.*\\.club\\.sohu\\.com/.*]]>
+			<urlPattern><![CDATA[(?i)http://mirror.*\.club\.sohu\.com/.*]]>
 			</urlPattern>
-			<contentPattern><![CDATA[var title_.*?='(.*?)';]]/>
+			<contentPattern><![CDATA[var title_.*?='(.*?)';]]>
 			</contentPattern>
 		</wrapper>
 	</attribute>
@@ -70,9 +70,9 @@
 		<HBDataType value="string"/>
 		<canNull value="false"/>
 		<wrapper>
-			<urlPattern><!CDATA[(?i)http://mirror.*\\.club\\.sohu\\.com/.*]]>
+			<urlPattern><![CDATA[(?i)http://mirror.*\.club\.sohu\.com/.*]]>
 			</urlPattern>
-			<contentPattern><![CDATA[var body_.*?='(.*?)';]]/>
+			<contentPattern><![CDATA[var body_.*?='(.*?)';]]>
 			</contentPattern>
 		</wrapper>
 	</attribute>
@@ -83,8 +83,8 @@
 		<HBDataType value="string"/>
 		<canNull value="true"/>
 		<wrapper>
-			<urlPattern><![CDATA[]]/><urlPattern>
-			<contentPattern/><![CDATA[]]/></contentPattern>
+			<urlPattern><![CDATA[]]></urlPattern>
+			<contentPattern><![CDATA[]]></contentPattern>
 		</wrapper>
 	</attribute>
 	
@@ -94,8 +94,8 @@
 		<HBDataType value="string"/>
 		<canNull value="true"/>
 		<wrapper>
-			<urlPattern><![CDATA[]]/><urlPattern>
-			<contentPattern/><![CDATA[]]/></contentPattern>
+			<urlPattern><![CDATA[]]></urlPattern>
+			<contentPattern><![CDATA[]]></contentPattern>
 		</wrapper>
 	</attribute>
 	
@@ -105,8 +105,8 @@
 		<HBDataType value="string"/>
 		<canNull value="true"/>
 		<wrapper>
-			<urlPattern><![CDATA[]]/><urlPattern>
-			<contentPattern/><![CDATA[]]/></contentPattern>
+			<urlPattern><![CDATA[]]></urlPattern>
+			<contentPattern><![CDATA[]]></contentPattern>
 		</wrapper>
 	</attribute>
 	
@@ -116,8 +116,8 @@
 		<HBDataType value="string"/>
 		<canNull value="true"/>
 		<wrapper>
-			<urlPattern><![CDATA[(?i)http://mirror.*\\.club\\.sohu\\.com/.*]]/><urlPattern>
-			<contentPattern/><![CDATA[var ancestorid_(.*?)='.*?';]]/></contentPattern>
+			<urlPattern><![CDATA[(?i)http://mirror.*\.club\.sohu\.com/.*]]></urlPattern>
+			<contentPattern><![CDATA[var ancestorid_(.*?)='.*?';]]></contentPattern>
 		</wrapper>
 	</attribute>
 	
@@ -127,8 +127,8 @@
 		<HBDataType value="string"/>
 		<canNull value="true"/>
 		<wrapper>
-			<urlPattern><![CDATA[(?i)http://mirror.*\\.club\\.sohu\\.com/.*]]/><urlPattern>
-			<contentPattern/><![CDATA[var ancestorid_.*?='(.*?)';]]/></contentPattern>
+			<urlPattern><![CDATA[(?i)http://mirror.*\.club\.sohu\.com/.*]]></urlPattern>
+			<contentPattern><![CDATA[var ancestorid_.*?='(.*?)';]]></contentPattern>
 		</wrapper>
 	</attribute>
 	

@@ -8,7 +8,7 @@ package edu.tsinghua.WebPageExtractor.filter;
  *
  */
 public enum PageType {
-	NEWS,BLOG,MOVIE,MUSIC,REVIEWS,NEED,UNKNOWN;
+	NEWS,BLOG,MOVIE,MUSIC,REVIEWS,POST,NEED,UNKNOWN;
 	public static PageType getNewInstance(String str)
 	{
 		if (str.equals("news"))
@@ -21,6 +21,8 @@ public enum PageType {
 			return MUSIC;
 		else if (str.equals("reviews"))
 			return REVIEWS;
+		else if (str.equals("post"))
+			return POST;
 		else if (str.equals("need"))
 			return NEED;
 		else
@@ -40,6 +42,8 @@ public enum PageType {
 			return "music";
 		case REVIEWS:
 			return "reviews";
+		case POST:
+			return "post";
 		case NEED:
 			return "need";
 			default:
